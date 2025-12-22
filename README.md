@@ -96,7 +96,8 @@ wheat flour, water, salt, yeast, sugar
 
 ---
 
-**Identitas Mahasiswa**
+## 👤 Identitas Mahasiswa 
+
 Nama: [MASUKKAN NAMA LENGKAP KAMU DI SINI] 
 NIM: [MASUKKAN NIM KAMU DI SINI] 
 
