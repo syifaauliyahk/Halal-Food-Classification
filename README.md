@@ -1,6 +1,4 @@
-# Halal-Food-Classification
-
-# 🥗 Halal Food Classification & Detection System
+# 🥗 Halal Food Classification 
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange)
