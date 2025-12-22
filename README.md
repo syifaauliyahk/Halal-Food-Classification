@@ -13,13 +13,11 @@
 ---
 
 ## 📌 Project Overview (Gambaran Proyek)
-Proyek ini dikembangkan untuk membangun sistem otomatisasi verifikasi status halal produk makanan kemasan berbasis **Machine Learning**.
-
-Model ini dilatih untuk membaca komposisi bahan (*ingredients list*) dalam format teks dan mengklasifikasikannya ke dalam dua kategori: **Halal** atau **Haram**. Penelitian ini bertujuan untuk membantu konsumen Muslim dalam mengidentifikasi titik kritis kehalalan produk secara mandiri dan cepat.
+Proyek ini dikembangkan untuk membangun sistem otomatisasi verifikasi status halal produk makanan kemasan berbasis **Machine Learning**. Model ini dilatih untuk membaca komposisi bahan (*ingredients list*) dalam format teks dan mengklasifikasikannya ke dalam dua kategori: **Halal** atau **Haram**. 
 
 ### 🎯 Tujuan Utama
 1.  Membangun model klasifikasi teks dengan akurasi tinggi (>90%) menggunakan algoritma **Linear SVM**.
-2.  Mengimplementasikan teknik **TF-IDF** dan **N-Gram** untuk menangkap konteks bahan makanan (seperti perbedaan *"Alcohol"* vs *"Sugar Alcohol"*).
+2.  Mengimplementasikan teknik **TF-IDF** dan **N-Gram**.
 3.  Menyediakan simulasi *deployment* berupa fungsi prediksi interaktif.
 
 ---
@@ -64,8 +62,6 @@ Berdasarkan hasil pengujian pada data uji (20%), **Linear SVM** terpilih sebagai
 | **Precision** | 99% |
 | **Recall (Haram)** | 98% |
 | **Training Time** | ~18 detik |
-
-> **Analisis:** Model memiliki sensitivitas yang sangat tinggi terhadap kelas 'Haram', yang berarti risiko produk haram lolos deteksi (*False Negative*) sangat kecil.
 
 ---
 
