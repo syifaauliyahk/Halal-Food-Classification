@@ -98,6 +98,5 @@ wheat flour, water, salt, yeast, sugar
 
 ## 👤 Identitas Mahasiswa 
 
-Nama: [MASUKKAN NAMA LENGKAP KAMU DI SINI] 
-NIM: [MASUKKAN NIM KAMU DI SINI] 
+Syifa Auliyah Kusumawardani (11230910000114)
 
