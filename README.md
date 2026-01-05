@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B)
 ![Type](https://img.shields.io/badge/Submission-UAS%20Data%20Science-red)
 
-> **PROJECT SUBMISSION**
+> **FINAL PROJECT**
 > **Mata Kuliah:** Peminatan Data Science
 
 ---
@@ -13,12 +13,10 @@
 ## 📌 Project Overview (Gambaran Proyek)
 Proyek ini dikembangkan untuk membangun sistem otomatisasi verifikasi status halal produk makanan kemasan berbasis **Machine Learning**. Model ini dilatih untuk membaca komposisi bahan (*ingredients list*) dalam format teks dan mengklasifikasikannya ke dalam dua kategori: **Halal** atau **Haram**.
 
-Kini, proyek ini telah dilengkapi dengan antarmuka web sederhana menggunakan **Streamlit**, sehingga pengguna dapat melakukan pengecekan dengan lebih mudah dan interaktif.
-
 ### 🎯 Tujuan Utama
 1.  Membangun model klasifikasi teks dengan akurasi tinggi (>90%) menggunakan algoritma **Linear SVM**.
 2.  Mengimplementasikan teknik **TF-IDF** dan **N-Gram**.
-3.  Menyediakan aplikasi web (**Streamlit**) untuk simulasi penggunaan nyata.
+3.  Menyediakan aplikasi web (**Streamlit**) untuk simulasi.
 
 ---
 
@@ -69,11 +67,10 @@ Berdasarkan hasil pengujian pada data uji (20%), **Linear SVM** terpilih sebagai
 
 File penting dalam repositori ini:
 
-* `app.py`: **[BARU]** Source code utama aplikasi web (Streamlit).
+* `app.py`: Source code utama aplikasi web (Streamlit).
 * `Training_Evaluasi_Klasifikasi_Haram_Halal.ipynb`: Notebook berisi proses training, EDA, dan evaluasi model.
 * `halal_classification_linear_svm.pkl`: Model SVM yang sudah dilatih (disimpan).
 * `tfidf_vectorizer.pkl`: Vectorizer TF-IDF yang sudah dilatih (disimpan).
-* `Halal_Checker_Deployment.ipynb`: Notebook simulasi deployment (versi Google Colab).
 
 ---
 
@@ -86,8 +83,8 @@ Pastikan Anda sudah menginstall Python dan library yang dibutuhkan.
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/username-kamu/nama-repo.git](https://github.com/username-kamu/nama-repo.git)
-    cd nama-repo
+    git clone [https://github.com/syifaauliyahk/Halal-Food-Classification.git]
+    cd Halal-Food-Classification
     ```
 
 2.  **Install library:**
@@ -105,16 +102,6 @@ Pastikan Anda sudah menginstall Python dan library yang dibutuhkan.
 1.  Buka file `Training_Evaluasi_Klasifikasi_Haram_Halal.ipynb` di Google Colab.
 2.  Upload dataset ke environment Colab.
 3.  Jalankan semua sel (*Run All*) untuk melatih model dari awal.
-
----
-
-## 📸 Contoh Penggunaan (Demo)
-
-**Input:**
-`wheat flour, water, salt, yeast, sugar`
-
-**Output Aplikasi:**
-✅ **STATUS: HALAL** (Confidence: 69.23%)
 
 ---
 
