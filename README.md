@@ -108,6 +108,5 @@ Pastikan Anda sudah menginstall Python dan library yang dibutuhkan.
 ## 👤 Identitas Mahasiswa
 
 **Syifa Auliyah Kusumawardani**
-* **NIM:** 11230910000114
-* **Program Studi:** Teknik Informatika
-* **Fakultas:** Sains dan Teknologi, UIN Syarif Hidayatullah Jakarta
+**NIM:** 11230910000114
+
