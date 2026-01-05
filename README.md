@@ -21,10 +21,10 @@ Proyek ini dikembangkan untuk membangun sistem otomatisasi verifikasi status hal
 ---
 
 ## 📊 Dataset
-Data yang digunakan bersumber dari repositori publik Kaggle:
-* **Nama Dataset:** List of food ingredients with halal label
+Dataset yang digunakan dalam proyek ini tidak disertakan dalam repositori karena ukurannya yang besar. Anda dapat mengunduh dataset asli melalui tautan berikut:
+* **Sumber:** [Kaggle - List of food ingredients with halal label](https://www.kaggle.com/datasets/irfanakbarihabibi/list-of-food-ingredients-with-halal-label)
+* **Nama File:** `2024-feb-final.csv`
 * **Jumlah Data:** 528.092 baris
-* **Fitur:** `text` (komposisi bahan) dan `label` (halal/haram)
 * **Distribusi:** Balanced (55.3% Halal : 44.7% Haram)
 
 ---
