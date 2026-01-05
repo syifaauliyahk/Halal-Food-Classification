@@ -107,6 +107,5 @@ Pastikan Anda sudah menginstall Python dan library yang dibutuhkan.
 
 ## 👤 Identitas Mahasiswa
 
-**Syifa Auliyah Kusumawardani**
-**NIM:** 11230910000114
+**Syifa Auliyah Kusumawardani** (11230910000114)
 
